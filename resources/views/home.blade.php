@@ -77,7 +77,7 @@
     
     <section class="hero">
         <div class="container text-center">
-            <h1>Welcome to InnoWeb</h1>
+            <h1>Welcome to HindtechIt Solution</h1>
             <p>Your Digital Future Starts Here</p>
             <a href="#" class="btn btn-primary btn-lg">Get Started</a>
         </div>
