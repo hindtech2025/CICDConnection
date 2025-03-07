@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
             font-family: 'Poppins', sans-serif;
             background-color: #f8f9fa;
         }
+
         .hero {
             background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
             height: 90vh;
@@ -20,6 +22,7 @@
             text-align: center;
             position: relative;
         }
+
         .hero::after {
             content: "";
             position: absolute;
@@ -29,27 +32,33 @@
             height: 100%;
             background: rgba(0, 0, 0, 0.5);
         }
+
         .hero .container {
             position: relative;
             z-index: 1;
         }
+
         .hero h1 {
             font-size: 4rem;
             font-weight: bold;
         }
+
         .hero p {
             font-size: 1.5rem;
             margin-bottom: 20px;
         }
+
         .services .card {
             transition: transform 0.3s, box-shadow 0.3s;
             border: none;
             border-radius: 10px;
         }
+
         .services .card:hover {
             transform: translateY(-10px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
+
         .footer {
             background: #343a40;
             color: white;
@@ -57,6 +66,7 @@
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -74,10 +84,10 @@
             </div>
         </div>
     </nav>
-    
+
     <section class="hero">
         <div class="container text-center">
-            <h1>Welcome to HindtechIt Solution</h1>
+            <h1>Welcome to Hindtech Learning Point</h1>
             <p>Your Digital Future Starts Here</p>
             <a href="#" class="btn btn-primary btn-lg">Get Started</a>
         </div>
@@ -115,4 +125,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
