@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -126,4 +126,79 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
+</html> --}}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CI/CD Pipeline</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Streamline Your Workflow with CI/CD</h1>
+      <p class="text-lg md:text-xl mb-8">Automate, build, test, and deploy with speed and precision</p>
+      <a href="#pipeline" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">Explore Pipeline</a>
+    </div>
+  </section>
+
+  <!-- Pipeline Diagram -->
+  <section id="pipeline" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">CI/CD Pipeline Flow</h2>
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-6 items-center justify-center text-center text-sm font-semibold">
+        <div class="bg-blue-100 p-4 rounded-lg shadow-md">Code</div>
+        <div class="text-2xl">➡️</div>
+        <div class="bg-green-100 p-4 rounded-lg shadow-md">Build</div>
+        <div class="text-2xl">➡️</div>
+        <div class="bg-yellow-100 p-4 rounded-lg shadow-md">Test</div>
+        <div class="text-2xl">➡️</div>
+        <div class="bg-purple-100 p-4 rounded-lg shadow-md">Deploy</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="bg-gray-50 py-16">
+    <div class="max-w-6xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold mb-12">Why Use CI/CD?</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-blue-600">Faster Delivery</h3>
+          <p>Ship features and fixes faster with automated pipelines and reliable workflows.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-green-600">Quality Assurance</h3>
+          <p>Run tests on every commit and catch bugs early before they reach production.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-purple-600">Scalability</h3>
+          <p>Easily scale your dev workflow across multiple teams and environments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-indigo-600 text-white py-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Start Automating Today!</h2>
+      <p class="mb-6 text-lg">Set up your CI/CD pipeline and supercharge your development lifecycle.</p>
+      <a href="#" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Get Started</a>
+    </div>
+  </section>
+
+  <footer class="text-center text-gray-600 py-6 text-sm">
+    © 2025 CI/CD by Manish | Hindtech IT Solutions
+  </footer>
+
+</body>
 </html>
